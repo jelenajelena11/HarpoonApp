@@ -11,22 +11,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.tm-down-arrow-link {
-    display: block;
-    margin-top: 18%;
+.arrow-link {
+    display: inline-block;
+    margin-top: 1%;
   }
-
-  .tm-down-arrow {
+/*
+  .down-arrow {
     color: #c57e7d;
     cursor: pointer;
-    background: white;
-    border-radius: 50%;
-    padding: 10px 22px 8px;
-    transition: all 0.3s ease;
+    background: rgb(241, 244, 245);
+    border-radius: 60%;
+    padding: 15px 20px 6px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }
+*/
 
-  .tm-down-arrow:hover,
-.tm-down-arrow:focus {
+.arrow {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.arrow:hover,
+.arrow:focus {
   color: white;
-  background: #3496d8;
+  
 }
