@@ -1,8 +1,55 @@
 #portfolio{
   background-repeat: no-repeat;
   background-position: top center;
-  height: 50px;
-  min-height: 375px;
+  height: 200px;
+  min-height: 600px;
   position: relative;
-background-color: rgb(19, 53, 44);
+  background-color: rgb(51, 74, 92);
+}
+
+.split{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left{
+  left: 0;
+  background-color:rgb(51, 74, 92);
+}
+
+.right{
+  right: 0;
+  background-color:rgb(51, 74, 92);
+}
+
+.centered{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.p{
+
+  color: white;
+}
+
+.button{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: darkblue;
+  border-width: 4px;
 }
