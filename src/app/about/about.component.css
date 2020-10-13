@@ -6,7 +6,7 @@
 
 .split{
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100%;
     width: 50%;
     z-index: 1;
@@ -18,7 +18,7 @@
 .left{
     left: 0;
     background-color: white;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
 .right{
@@ -42,10 +42,62 @@
 }
 
 .img3{
-
     position: absolute;
     top: 44%;
     left: 62%;
     right: 120%;
     transform: rotate(45deg);
+}
+
+.circle-link {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 96%;
+    right: 140%;
+}
+
+.circle {
+    border: solid black;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    padding: 1.5px;
+}
+
+.circle:hover, 
+.circle:focus {
+    color: lightblue;
+}
+
+.circle-link2{
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 96%;
+    right: 140%;
+}
+
+.circle-link3{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 96%;
+    right: 140%;
+}
+
+.circle-link4{
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 96%;
+    right: 140%;
+}
+
+.circle-link5{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 96%;
+    right: 140%;
 }
