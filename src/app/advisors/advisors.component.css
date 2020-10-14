@@ -7,7 +7,7 @@
 
 h1{
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     padding-top: 40px; 
     color: teal;
     margin-left: 140px;
@@ -15,7 +15,7 @@ h1{
 
 .split{
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     z-index: 1;
     top: 0;
     overflow-x: hidden;

@@ -14,7 +14,7 @@
 
 .split{
   text-align: left;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
@@ -100,7 +100,7 @@ p{
   text-align: center;
   color: white;
   margin-top: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 h2{

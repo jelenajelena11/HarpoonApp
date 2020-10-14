@@ -28,14 +28,14 @@
 
 .centered{
     position: absolute;
-    top: 5%;
+    top: 8%;
     left: 60%;
     transform: rotate(45deg);
 }
 
 .img2{
     position: absolute;
-    top: 24%;
+    top: 26%;
     left: 73%;
     right: 20%;
     transform: rotate(45deg);
@@ -43,8 +43,8 @@
 
 .img3{
     position: absolute;
-    top: 44%;
-    left: 62%;
+    top: 45%;
+    left: 62.3%;
     right: 120%;
     transform: rotate(45deg);
 }
