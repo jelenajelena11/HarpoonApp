@@ -16,6 +16,7 @@
     rgba(20,113,88, 0.6),
     rgba(0,0, 10, 600)
   ),url('https://2k8r3p1401as2e1q7k14dguu-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/6046754-1-1024x654.jpg');
+  background-size: 1350px 670px;
 }
 
 .head2{
@@ -142,4 +143,9 @@ button{
   border-width: 2px;
   display: inline-block;
   font-size: 16px;
+  background: linear-gradient(
+    to top right,
+    rgba(119, 198, 235, 0.6),
+    rgba(0,0, 10, 600)
+  )
 }

@@ -7,7 +7,8 @@
   background: linear-gradient(
     rgba(0,48,70, 0.8),
     rgba(0,0, 0, 0.9)
-  ),url('https://us.123rf.com/450wm/ijeab/ijeab1805/ijeab180500064/102335348-law-advice-and-legal-services-concept-lawyer-and-attorney-having-team-meeting-at-law-firm-.jpg?ver=6');
+  ),url('https://skvarnalaw.com/wp-content/uploads/2019/11/Legal-Meeting-Adoption-Law-Glendora.jpeg');
+  background-size: 1350px 800px;
 }
 
 .split{
@@ -32,6 +33,7 @@
 
 p{
   color: lightseagreen;
+  font-weight: bold;
 }
 
 .circle-link {
@@ -105,9 +107,13 @@ h2{
   float: right;
   margin-top: 10px;
   margin-right: 320px;
+  color: pink;
+  opacity: 40%;
 }
 
 h3{
   color: pink;
   font-weight: bold;
 }
+
+

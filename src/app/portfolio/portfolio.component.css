@@ -8,6 +8,7 @@
     rgba(0,48,70, 0.8),
     rgba(0,0, 0, 0.7)
   ),url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-size: 1150px 800px;
 }
 
 .split{
@@ -128,4 +129,9 @@ button{
 .blue{
   color: teal;
   font-weight: bold;
+}
+
+.pA{
+  color: white;
+  word-spacing: 1em;
 }
