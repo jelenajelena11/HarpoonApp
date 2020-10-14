@@ -2,9 +2,12 @@
   background-repeat: no-repeat;
   background-position: top center;
   height: 50px;
-  min-height: 650px;
+  min-height: 730px;
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background: linear-gradient(
+    rgba(0,48,70, 0.8),
+    rgba(0,0, 0, 0.7)
+  ),url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
 }
 
 .split{
@@ -20,7 +23,7 @@
 
 .left{
   left: 0;
-  margin-left: 120px;
+  margin-left: 150px;
 }
 
 .right{
@@ -86,13 +89,6 @@
   font-weight: bold;
 }
 
-.button{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  border-color: darkblue;
-  border-width: 4px;
-}
-
 .centered{
   position: absolute;
   top: 24%;
@@ -103,8 +99,33 @@
 
 .bottomText{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   position: absolute;
   left: 20%;
   text-align: center;
+}
+
+.underHeading{
+  color: rgb(58, 180, 180);
+}
+
+button{
+  text-align: center;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-color: rgb(58, 180, 180);
+  border-width: 2px;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  padding: 8px 30px;
+}
+
+.yellow{
+  color: yellow;
+}
+
+.blue{
+  color: teal;
+  font-weight: bold;
 }

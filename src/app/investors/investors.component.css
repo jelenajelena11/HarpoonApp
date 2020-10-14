@@ -4,12 +4,10 @@
   height: 50px;
   min-height: 630px;
   position: relative;
-
-}
-
-#backgroundI{
-  background-position: center top;
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://us.123rf.com/450wm/ijeab/ijeab1805/ijeab180500064/102335348-law-advice-and-legal-services-concept-lawyer-and-attorney-having-team-meeting-at-law-firm-.jpg?ver=6');
+  background: linear-gradient(
+    rgba(0,48,70, 0.8),
+    rgba(0,0, 0, 0.9)
+  ),url('https://us.123rf.com/450wm/ijeab/ijeab1805/ijeab180500064/102335348-law-advice-and-legal-services-concept-lawyer-and-attorney-having-team-meeting-at-law-firm-.jpg?ver=6');
 }
 
 .split{
@@ -25,7 +23,7 @@
 
 .left{
     left: 0;
-    margin-left: 120px;
+    margin-left: 150px;
 }
 
 .right{
@@ -107,4 +105,9 @@ h2{
   float: right;
   margin-top: 10px;
   margin-right: 320px;
+}
+
+h3{
+  color: pink;
+  font-weight: bold;
 }

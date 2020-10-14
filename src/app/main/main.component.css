@@ -22,7 +22,7 @@
   text-align: center;
   color: white;
   font-family: 'Arial Narrow', Arial, sans-serif;
-  padding: 18%;
+  padding: 15%;
 }
 
 .split{
@@ -128,4 +128,18 @@ transform: rotate(45deg);
 .arrow:focus {
 color: white;
 
+}
+
+button{
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  padding: 8px 50px;
+  margin-top: 50px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-color: rgb(58, 180, 180);
+  margin-left: 920px;
+  border-width: 2px;
+  display: inline-block;
+  font-size: 16px;
 }
