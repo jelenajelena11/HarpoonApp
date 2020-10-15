@@ -10,8 +10,9 @@ h1{
     text-align: left;
     font-family: 'Arial Narrow', Arial, sans-serif;
     padding-top: 40px; 
-    color: teal;
+    color: rgb(6, 73, 102);
     margin-left: 150px;
+    font-weight: bold;
 }
 
 .split{
@@ -20,7 +21,7 @@ h1{
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding-top: 30px;
+    padding-top: 22px;
     width: 30%;
     color: teal;
 }
@@ -33,7 +34,7 @@ h1{
 
 img {
     float: left;
-    padding: 40px;
+    padding: 43px;
     border-radius: 50%;
     margin-top: -60px;
 }
@@ -45,7 +46,7 @@ img {
 
 .centered{
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 50%;
     right: 10px;
 }
@@ -59,9 +60,9 @@ img {
 }
 
 .circle {
-    border: solid black;
+    border: solid rgb(5, 47, 65);
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(5, 47, 65);
     display: inline-block;
     padding: 1.5px;
 }
@@ -105,9 +106,14 @@ img {
 }
 
 hr{
-    background-color: rgb(125, 217, 230);
-    width: 40%;
+    background-color: rgb(104, 194, 189);
+    width: 29.4%;
     margin-left: 1px;
     height: 4px;
     border: none;
+}
+
+p{
+    color: rgb(104, 194, 189);
+    font-weight: bold;
 }
