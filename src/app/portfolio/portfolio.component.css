@@ -7,7 +7,7 @@
   background: linear-gradient(
     rgba(3, 39, 54, 0.7),
     rgba(0,0, 0, 0.8)
-  ),url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  ),url("C:\Users\Korisnik\Desktop\harpoon\src\assets\photo-1452587925148-ce544e77e70d.jpg");
   background-size: 1150px 800px;
   width: 1350px;
 }
@@ -18,7 +18,7 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 40px;
+  padding-top: 25px;
   width: 40%;
   color: white;
 }
@@ -104,8 +104,9 @@
   color: white;
   font-family: 'Arial Narrow', Arial, sans-serif;
   position: absolute;
-  left: 20%;
+  left: 30%;
   text-align: center;
+  margin-top: -50px;
 }
 
 .underHeading{
@@ -136,4 +137,16 @@ button{
 .pA{
   color: white;
   word-spacing: 1em;
+}
+
+h1{
+  margin-top: 25px;
+}
+
+hr{
+  background-color: rgb(125, 217, 230);
+  width: 75%;
+  margin-left: 1px;
+  height: 4px;
+  border: none;
 }

@@ -103,3 +103,11 @@ img {
     left: 96%;
     right: 140%;
 }
+
+hr{
+    background-color: rgb(125, 217, 230);
+    width: 40%;
+    margin-left: 1px;
+    height: 4px;
+    border: none;
+}
