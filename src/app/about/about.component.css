@@ -2,6 +2,7 @@
   height: 60px;
   min-height: 650px;
   position: relative;
+  width: 1350px;
 }
 
 .split{
@@ -67,7 +68,8 @@
 
 .circle:hover, 
 .circle:focus {
-    color: lightblue;
+    background-color: rgb(125, 217, 230);
+    border: solid rgb(125, 217, 230);
 }
 
 .circle-link2{
@@ -101,3 +103,4 @@
     left: 96%;
     right: 140%;
 }
+

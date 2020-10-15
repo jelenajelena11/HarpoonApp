@@ -5,10 +5,11 @@
   min-height: 630px;
   position: relative;
   background: linear-gradient(
-    rgba(0,48,70, 0.8),
+    rgba(3, 39, 54, 0.9),
     rgba(0,0, 0, 0.9)
   ),url('https://skvarnalaw.com/wp-content/uploads/2019/11/Legal-Meeting-Adoption-Law-Glendora.jpeg');
   background-size: 1350px 800px;
+  width: 1350px;
 }
 
 .split{
@@ -52,9 +53,9 @@ p{
   padding: 1.5px;
 }
 
-.circle:hover, 
-.circle:focus {
-  color: lightblue;
+.circle:hover {
+  background-color: rgb(125, 217, 230);
+  border: solid rgb(125, 217, 230);
 }
 
 .circle-link2{

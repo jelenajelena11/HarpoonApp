@@ -3,6 +3,7 @@
     min-height: 820px;
     position: relative;
     background-color: rgb(243, 247, 246);
+    width: 1350px;
 }
 
 h1{
@@ -67,7 +68,8 @@ img {
 
 .circle:hover, 
 .circle:focus {
-    color: lightblue;
+    background-color: rgb(125, 217, 230);
+    border: solid rgb(125, 217, 230);
 }
 
 .circle-link2{

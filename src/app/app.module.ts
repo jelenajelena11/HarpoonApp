@@ -5,8 +5,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainComponent } from './main/main.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AdvisorsComponent } from './advisors/advisors.component';
@@ -16,8 +16,8 @@ import { InvestorsComponent } from './investors/investors.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent,
     FooterComponent,
+    MainComponent,
     AboutComponent,
     PortfolioComponent,
     AdvisorsComponent,

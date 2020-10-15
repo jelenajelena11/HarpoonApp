@@ -12,4 +12,6 @@ export class InvestorsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+
 }
